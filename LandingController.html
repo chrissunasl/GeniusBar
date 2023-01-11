@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Genius Bar</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.6.3.js"></script>
+    <script type="text/javascript">
+             $(function(){
+      $("#headerContainer").load("/HeaderContainer.html");
+    });
+    </script>
+    <script type="text/javascript">
+             $(function(){
+      $("#includedLandingContainer").load("LandingContainer.html");
+    });
+    </script>
+    <script type="text/javascript">
+             $(function(){
+      $("#footerContainer").load("/FooterContainer.html");
+    });
+    </script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <div id="headerContainer"></div>
+</header>
+
+<div id="includedLandingContainer"></div>
+
+<footer>
+    <div id="footerContainer"></div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Make an appointment</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css">
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript" src="/jquery/jquery-3.6.3.js"></script>
+    <script type="text/javascript">
+             $(function(){
+      $("#headerContainer").load("/HeaderContainer.html");
+    });
+    </script>
+    <script type="text/javascript">
+             $(function(){
+      $("#includedFormContainer").load("FormContainerHtml.html");
+    });
+    </script>
+    <script type="text/javascript">
+             $(function(){
+      $("#footerContainer").load("/FooterContainer.html");
+    });
+    </script>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+<header>
+    <div id="headerContainer"></div>
+</header>
+
+<div id="includedFormContainer"></div>
+
+<footer>
+    <div id="footerContainer"></div>
+</footer>
+<style>
+ul {
+    list-style-type: none;
+}
+.formbold-btn {
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 14px 25px;
+    border: none;
+    font-weight: 500;
+    background-color: #6a64f1;
+    color: white;
+    cursor: pointer;
+    margin-top: 25px;
+  }
+  .formbold-btn:hover {
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.05);
+  }
+</style>
+</body>
+</html>
